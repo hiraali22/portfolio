@@ -1,0 +1,64 @@
+/* navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0px 16px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+    z-index: 1000;
+    height: 60px;
+}
+.nav-item{
+    display: block;
+    font-size: 23px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out 0s;
+}
+
+ /* cv */
+ .cv{    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 70px;
+    margin-top: 0px;
+
+ }
+
+ .cv-text{
+    text-align: center;
+    margin-bottom: 70px;
+    
+ }
+
+
+/* download button */
+.btn {
+    background-color: rgb(127, 129, 136);
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-left: 650px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+
